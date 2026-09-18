@@ -152,16 +152,35 @@ const IconStar = () => <svg viewBox="0 0 24 24" width="24" height="24" fill="#FF
 
 // Mascot Đảng Cộng Sản dễ thương (Ngôi sao đỏ bo góc có búa liềm vàng)
 const Mascot = ({ size = 100 }) => (
-  <svg width={size} height={size} viewBox="0 0 100 100">
-    <rect x="5" y="5" width="90" height="90" rx="30" fill="#E53935" />
-    <path d="M45,25 C30,25 25,45 35,60 C40,65 50,75 50,75 C50,75 60,65 65,60 C75,45 70,25 55,25 C50,25 50,35 50,35 C50,35 50,25 45,25 Z" fill="#FFD54F" />
-    <path d="M60,45 L40,75 L35,70 L55,40 Z M35,45 L50,55 L45,65 L30,50 Z" fill="#FFD54F" />
-    <circle cx="35" cy="40" r="4" fill="#FFFFFF" />
-    <circle cx="65" cy="40" r="4" fill="#FFFFFF" />
-    <path d="M 45 55 Q 50 65 55 55" stroke="#FFFFFF" strokeWidth="3" fill="none" strokeLinecap="round" />
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 100 100"
+    role="img"
+    aria-label="Biểu tượng búa liềm"
+  >
+    <rect
+      x="5"
+      y="5"
+      width="90"
+      height="90"
+      rx="28"
+      fill="#D92D27"
+    />
+
+    <text
+      x="50"
+      y="70"
+      textAnchor="middle"
+      fontSize="60"
+      fontFamily="Arial Unicode MS, Segoe UI Symbol, sans-serif"
+      fontWeight="700"
+      fill="#FFD84D"
+    >
+      ☭
+    </text>
   </svg>
 );
-
 // ==========================================
 // GAME LOGIC & HELPERS
 // ==========================================
